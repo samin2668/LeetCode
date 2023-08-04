@@ -1,18 +1,11 @@
 function intToRoman(num: number): string {
     let len = num.toString().length
     let ret = ''
-    let arr = []
     let pow = 0
     while(num > 0){
         pow++
-        let remainder = num % Math.pow(10, pow)
-        num = num - remainder
-        arr.push(remainder)
-    }
-
-    for(let i = 0; i < arr.length; i++){
-        let n = arr[i]
-        let tmp = n
+        let n = num % Math.pow(10, pow)
+        num = num - n
         if(n % 4 === 0 || n % 9 === 0){
             switch(n){
                 case 4: 
@@ -81,8 +74,11 @@ function intToRoman(num: number): string {
         }
     }
 
+
+    
+
     return ret
 };
 
 
-console.log(intToRoman(60))
+console.log(intToRoman(600))
