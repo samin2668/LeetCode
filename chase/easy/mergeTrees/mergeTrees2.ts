@@ -1,7 +1,7 @@
 //recursive solution
 
-import TreeNode from "../../treeNode.js"
-import buildTreeLeetCode from "../../treeInsert"
+import TreeNode from "../../../treeNode.js"
+import buildTreeLeetCode from "../../../treeInsert.js"
 function mergeTrees(root1: TreeNode | null, root2: TreeNode | null): TreeNode | null {
     if(!root1 && !root2) return null
     let val = (root1 ? root1.val : 0) + (root2 ? root2.val : 0)

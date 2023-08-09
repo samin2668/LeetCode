@@ -1,4 +1,4 @@
-import TreeNode from '../treeNode.js'
+import TreeNode from '../../treeNode.js'
 function getTargetCopy(original: TreeNode | null, 
                        cloned: TreeNode | null, 
                        target: TreeNode | null): TreeNode | null {

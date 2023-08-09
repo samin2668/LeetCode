@@ -19,3 +19,5 @@ export default function buildTreeLeetCode(inputArray: any[]): TreeNode {
     return root;
 }
 
+let root = buildTreeLeetCode([5,3,6,2,4,null,7])
+console.log(root)

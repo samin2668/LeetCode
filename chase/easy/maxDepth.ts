@@ -1,5 +1,5 @@
-import TreeNode from '../treeNode'
-import buildTreeLeetCode from '../treeInsert'
+import TreeNode from '../../treeNode'
+import buildTreeLeetCode from '../../treeInsert'
 function maxDepth(root: TreeNode | null): number {
     if(!root)
         return 0

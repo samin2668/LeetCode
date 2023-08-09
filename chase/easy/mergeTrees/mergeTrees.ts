@@ -1,7 +1,7 @@
 //my headass iterative solution
 
-import TreeNode from "../../treeNode.js"
-import buildTreeLeetCode from "../../treeInsert"
+import TreeNode from "../../../treeNode.js"
+import buildTreeLeetCode from "../../../treeInsert.js"
 function mergeTrees(root1: TreeNode | null, root2: TreeNode | null): TreeNode | null {
     if(!root1 || !root2) return root1 || root2
     

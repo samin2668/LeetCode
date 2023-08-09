@@ -1,4 +1,4 @@
-import TreeNode from "../treeNode";
+import TreeNode from "../../treeNode";
 function binaryTreePaths(root: TreeNode | null): string[] {
     const result: string[] = [];
     function helper(node: TreeNode, path: string): void {
