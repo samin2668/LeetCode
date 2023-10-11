@@ -17,9 +17,3 @@ def buildTree(inputArray:List):
             q.append(curNode.right)
     
     return root
-
-
-arr = [1,2,3,None,5]
-
-root = buildTree(arr)
-print(root)
