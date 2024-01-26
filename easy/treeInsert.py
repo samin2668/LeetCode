@@ -6,8 +6,9 @@ def buildTree(inputArray:List):
     q = [root]
     while len(q) > 0 and len(inputArray) > 0:
         curNode = q.pop(0)
-        left = inputArray.pop(0)
-        right = inputArray.pop(0)
+        
+        left = inputArray.pop(0) if inputArray else None
+        right = inputArray.pop(0) if inputArray else None
         
         if left != None:
             curNode.left = TreeNode(left)

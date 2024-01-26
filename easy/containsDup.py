@@ -10,4 +10,4 @@ class Solution:
     
 sol = Solution()
 
-print(sol.containsDuplicate([1,1,2,3]))    
+print(sol.containsDuplicate([1,2,3,3]))    
